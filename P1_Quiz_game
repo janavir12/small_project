@@ -1,0 +1,29 @@
+def input_func():
+    while play.lower()!="yes":
+        continue
+    else:
+        pass
+
+print("welcome to my quiz game!!")
+play=input("wanna play?\n")
+input_func()   
+print('cool!!!\n so question 1 comes:')
+score=0
+q1= input('what planet is closest to sun?\n')
+if q1.lower()== "mercury":
+    print("correct!!\n")
+    score+=1
+else: 
+    print("oops! Incorrect!\n")    
+q2= input('How many hearts does Octopus have?\n')
+if q2=="3":
+    print("correct!!\n")
+    score+=1
+else: print("oops! Incorrect!\n")
+q3= input('which is the only body part fully grown from birth?\n')
+if q3.lower()=="eyes":
+    print("correct!\n")
+    score+=1
+else: print("oops! Incorrect!\n")
+print('you got {} questions correct'.format(score))
+    
